@@ -50,3 +50,65 @@ ctx.moveTo(50, 800);
 ctx.lineTo(100, 850);
 ctx.lineTo(150, 800);
 ctx.fill();
+
+//hw1
+// horizontal line
+ctx.beginPath();
+ctx.moveTo(200, 50);
+ctx.lineTo(300, 50);
+ctx.stroke();
+
+// vertical line;
+ctx.beginPath();
+ctx.moveTo(200, 150);
+ctx.lineTo(200, 250);
+ctx.stroke();
+
+// cross
+ctx.beginPath();
+ctx.moveTo(200, 300);
+ctx.lineTo(250, 350);
+ctx.moveTo(200, 350);
+ctx.lineTo(250, 300);
+ctx.stroke();
+
+// square
+ctx.beginPath();
+ctx.moveTo(200, 450);
+ctx.lineTo(300, 450);
+ctx.lineTo(300, 550);
+ctx.lineTo(200, 550);
+ctx.closePath();
+ctx.stroke();
+
+// triangle
+ctx.beginPath();
+ctx.moveTo(250, 650);
+ctx.lineTo(300, 700);
+ctx.lineTo(200, 700);
+ctx.closePath();
+ctx.stroke();
+
+// arrow right
+ctx.beginPath();
+ctx.moveTo(200, 800);
+ctx.lineTo(300, 800);
+ctx.lineTo(280, 820);
+ctx.moveTo(300, 800);
+ctx.lineTo(280, 780);
+ctx.stroke();
+
+// filled square
+ctx.beginPath();
+ctx.moveTo(200, 920);
+ctx.lineTo(300, 920);
+ctx.lineTo(300, 1020);
+ctx.lineTo(200, 1020);
+ctx.fill();
+
+// filled triangle
+ctx.beginPath();
+ctx.moveTo(250, 1120);
+ctx.lineTo(300, 1270);
+ctx.lineTo(200, 1270);
+ctx.fill();
