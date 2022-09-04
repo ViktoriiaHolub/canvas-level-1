@@ -112,3 +112,15 @@ ctx.moveTo(250, 1120);
 ctx.lineTo(300, 1270);
 ctx.lineTo(200, 1270);
 ctx.fill();
+
+//methods for rectangle
+ctx.strokeRect(350, 50, 100, 75);
+
+ctx.fillRect(350, 150, 100, 75);
+
+ctx.rect(350, 300, 100, 75);
+// ctx.fill();
+ctx.stroke(); // can be fill() or stroke()
+
+ctx.fillRect(350, 450, 100, 75);
+ctx.clearRect(375, 470, 50, 50);
