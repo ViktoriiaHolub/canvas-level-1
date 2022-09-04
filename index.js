@@ -158,3 +158,47 @@ ctx.fill();
 ctx.beginPath();
 ctx.arc(550, 920, 40, 0, getRadians(90));
 ctx.fill();
+
+// color for lines and background
+ctx.beginPath();
+
+ctx.rect(650, 50, 75, 75);
+ctx.strokeStyle = "red";
+ctx.stroke();
+
+ctx.beginPath();
+ctx.rect(650, 150, 75, 75);
+ctx.fillStyle = "green";
+ctx.fill();
+
+ctx.beginPath();
+ctx.moveTo(650, 300);
+ctx.lineTo(750, 300);
+ctx.strokeStyle = "red";
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(650, 450);
+ctx.lineTo(750, 450);
+ctx.strokeStyle = "red";
+ctx.stroke();
+ctx.beginPath();
+ctx.moveTo(650, 470);
+ctx.lineTo(750, 470);
+ctx.strokeStyle = "green";
+ctx.stroke();
+
+ctx.beginPath();
+ctx.rect(650, 650, 100, 75);
+ctx.fillStyle = "green";
+ctx.fill();
+
+ctx.beginPath();
+ctx.rect(650, 790, 50, 50);
+ctx.fillStyle = "green";
+ctx.fill();
+
+ctx.beginPath();
+ctx.rect(650, 850, 50, 50);
+ctx.fillStyle = "red";
+ctx.fill();
