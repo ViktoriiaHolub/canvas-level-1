@@ -202,3 +202,16 @@ ctx.beginPath();
 ctx.rect(650, 850, 50, 50);
 ctx.fillStyle = "red";
 ctx.fill();
+
+// size of lines
+ctx.beginPath();
+ctx.moveTo(800, 50);
+ctx.lineTo(900, 50);
+ctx.strokeStyle = "black";
+ctx.lineWidth = 5;
+ctx.stroke();
+
+ctx.beginPath();
+ctx.rect(800, 150, 75, 75);
+ctx.lineWidth = 5;
+ctx.stroke();
