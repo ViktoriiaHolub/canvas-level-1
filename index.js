@@ -215,3 +215,23 @@ ctx.beginPath();
 ctx.rect(800, 150, 75, 75);
 ctx.lineWidth = 5;
 ctx.stroke();
+
+// loops
+ctx.beginPath();
+ctx.lineWidth = 1;
+for (let i = 3; i <= 8; i++) {
+  ctx.moveTo(950, 15 * i);
+  ctx.lineTo(1050, 15 * i);
+}
+ctx.stroke();
+
+ctx.beginPath();
+for (let i = 10; i <= 18; i++) {
+  for (let y = 7; y <= 96; y += 12) {
+    ctx.moveTo(950 + y, 145);
+    ctx.lineTo(950 + y, 245);
+  }
+  ctx.moveTo(950, 11 * i + 40);
+  ctx.lineTo(1050, 11 * i + 40);
+}
+ctx.stroke();
