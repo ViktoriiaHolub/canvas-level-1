@@ -124,3 +124,37 @@ ctx.stroke(); // can be fill() or stroke()
 
 ctx.fillRect(350, 450, 100, 75);
 ctx.clearRect(375, 470, 50, 50);
+
+// work with circumferences
+function getRadians(degrees) {
+  return (Math.PI / 180) * degrees;
+}
+
+ctx.beginPath();
+ctx.arc(550, 85, 40, 0, getRadians(360));
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(550, 150, 40, 0, getRadians(180));
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(550, 300, 40, 0, getRadians(180));
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(550, 490, 40, 0, getRadians(360));
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(550, 650, 40, 0, getRadians(180));
+ctx.closePath();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(550, 790, 40, 0, getRadians(180));
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(550, 920, 40, 0, getRadians(90));
+ctx.fill();
